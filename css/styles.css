@@ -1,0 +1,83 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #F5F7FA;
+}
+.sheet {
+    display: flex;
+    flex-direction: row-reverse;
+    background: white;
+    box-shadow: 5px 5px 15px;
+    width: 1200px;
+    margin: auto;
+}
+header {
+    background: rgb(242,242,242);
+    padding: 0.1px 5ex;
+}
+h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.justify-text {
+    text-align: justify;
+}
+.projects {
+    padding: 0.1px 5ex;
+}
+h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #FB6D3A;
+}
+a {
+    color: black;
+}
+.works {
+    margin: 5ex;
+}
+.section-li {
+    margin: 5ex 0;
+}
+h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h5 {
+    font-style: italic;
+    color: gray;
+}
+.education {
+    margin: 10ex 5ex;
+}
+aside {
+    background-color: rgb(242,242,242);
+    padding: 1ex;
+}
+img {
+    vertical-align: middle;
+    width: 25px;
+    margin: 1px;
+}
+aside section {
+    margin: 5ex 1ex;
+}
+.user-photo {
+    border-radius: 25px 0;
+    width: 250px;
+}
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
